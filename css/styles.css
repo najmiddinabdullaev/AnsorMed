@@ -5,4 +5,19 @@ box-sizing: border-box;
 .body {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 16px;
+  line-height:1.5 ;
+  color: #444;
+  background-color: white;
+}
+
+/* Container */
+.container{
+width: 100%;
+max-width: 1160px;
+padding-left: 30px;
+padding-right: 30px;
+margin-left: auto;
+margin-right: auto;
 }
