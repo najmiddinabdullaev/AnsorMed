@@ -52,6 +52,14 @@ align-items: center;
   font-weight: 600;
 }
 
+.site-logo-site-footer{
+  color: white;
+}
+
+.site-logo-site-footer:active{
+  color: white;
+}
+
 .site-logo:hover{
   color: #DE2E54;
 }
@@ -62,6 +70,7 @@ align-items: center;
 
 .site-logo-img{
   margin-right: 16px;
+  border-radius: 50%;
 }
 
 
@@ -100,7 +109,17 @@ margin-right: 32px;
   opacity: 0.6;
 }
 
+.sitenav-site-footer .sitenav-link{
+color: white;
+}
 
+.sitenav-site-footer .sitenav-link:hover{
+  color: #DE2E54;
+}
+
+.sitenav-site-footer .sitenav-link:active{
+  color: white;
+}
 /* MAin link */
 
 .main-link{
@@ -127,4 +146,21 @@ margin-right: 32px;
   background-color: #DE2E54;
   color: white;
   opacity: 0.6;
+}
+
+
+/* Site footer */
+
+
+.site-footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #222;
+  color: white;
+}
+
+.site-footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
